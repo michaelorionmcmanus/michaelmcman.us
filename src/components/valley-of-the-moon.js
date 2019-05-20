@@ -11,7 +11,7 @@ const ValleyOfTheMoon = (props) => (
           photos {
             image {
               title
-              fluid(maxWidth: 3000, quality: 100) {
+              fluid(maxWidth: 2000, quality: 100) {
                 ...GatsbyContentfulFluid_noBase64
               }
             }
