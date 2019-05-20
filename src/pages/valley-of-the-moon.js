@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Valley of the Moon" />
-    <h1 style={{margin: '2rem'}}>Valley of the Moon</h1>
+    <h1 style={{margin: '2rem 0.5rem'}}>Valley of the Moon</h1>
     <div style={{ marginBottom: `1.45rem` }}>
       <ValleyOfTheMoon slug={'valley-of-the-moon'}/>
     </div>
