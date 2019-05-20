@@ -22,9 +22,8 @@ const ValleyOfTheMoon = (props) => (
     render={(data) => {
       const photos = data.contentfulPhotoPost.photos.map((photo) => {
         return(
-          <div>
-            <h2>{photo.image.title}</h2>
-            <Img fluid={photo.image.fluid}/>
+          <div style={{margin: '2rem'}}>
+            <Img loading={'auto'} fluid={photo.image.fluid}/>
           </div>
         )
       })
