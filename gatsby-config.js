@@ -1,10 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `michaelmcman.us`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `mjw6guht8nsl`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: 'HxZ2zEOHWAbEOEBET4EH1Gbbe-tqMB_eQ2SLW-Rq2U0',
+      },
+    },
+    `gatsby-plugin-extract-schema`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

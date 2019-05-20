@@ -7,10 +7,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Posts</h1>
+    <SEO title="Valley of the Moon" />
+    <h1>Valley of the Moon</h1>
     <div style={{ marginBottom: `1.45rem` }}>
-      <Link to="/valley-of-the-moon/">Valley of the Moon</Link>
+      <ValleyOfTheMoon slug={'valley-of-the-moon'}/>
     </div>
   </Layout>
 )
